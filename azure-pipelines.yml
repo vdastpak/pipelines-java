@@ -14,6 +14,12 @@ strategy:
     jdk11_windows:
       imageName: "vs2017-win2016"
       jdk_version: "1.11"
+    jdk11_linux:
+      imageName: "ubuntu-16.04"
+      jdk_version: "1.11"
+    jdk10_windows:
+      imageName: "vs2017-win2016"
+      jdk_version: "1.10"      
   maxParallel: 2
 
 pool:
